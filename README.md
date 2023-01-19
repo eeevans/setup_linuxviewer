@@ -17,6 +17,13 @@ dependencies rely on versions of cmake that are not available as packages
 on 18.04. It may be possible by pulling the source for cmake and installing
 a later version.
 
+#### Note:
+
+The vulkan-dev, libxml++-3.0.0, and shaderc packages were not available for
+Ubuntu 20.04 at the time of this writing so is being built from source. This
+may not be necessary in the future if these packages become maintained for
+this OS version.
+
 ### Util Script
 
 The `make_all_script.sh` simply concatenates the individual scripts into
@@ -40,31 +47,31 @@ your needs. It assumes the code will live in `~/source/linuxviewer` and that
 you will use ninja to build the source. If not using ninja, simply remove the
 `-GNinja` argument from the `cmake` command, the ninja and ninja install commands and replace with commands needed using your 'make' system of choice.
 
-
 ### Packages Required
+
 Here are the list of packages if you want to install them manually
 
     build-essential
     git
     wget
-    cmake 
-    autoconf 
-    ninja-build 
-    gfortran 
-    pkg-config  
-    libtool 
-    libblas-dev 
-    liblapack-dev 
+    cmake
+    autoconf
+    ninja-build
+    gfortran
+    pkg-config
+    libtool
+    libblas-dev
+    liblapack-dev
     libsystemd-dev
-    gawk 
-    doxygen 
+    gawk
+    doxygen
     graphviz
-    libboost-all-dev 
+    libboost-all-dev
     libsparsehash-dev
-    libxkbcommon-x11-dev 
-    libglibmm-2.4-dev 
-    xsltproc 
-    libeigen3-dev 
+    libxkbcommon-x11-dev
+    libglibmm-2.4-dev
+    xsltproc
+    libeigen3-dev
     libvulkan-dev
-    libxml2-dev 
+    libxml2-dev
     meson
