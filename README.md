@@ -38,4 +38,4 @@ and can be run instead.
 The `build_linuxviewer.sh` is very opinionated and should be edited to fit your
 your needs. It assumes the code will live in `~/source/linuxviewer` and that
 you will use ninja to build the source. If not using ninja, simply remove the
-`-GNinja` argument from the `cmake` command.
+`-GNinja` argument from the `cmake` command, the ninja and ninja install commands and replace with commands needed using your 'make' system of choice.
