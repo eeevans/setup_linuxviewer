@@ -75,4 +75,4 @@ Here are the list of packages if you want to install them manually
     libeigen3-dev
     libvulkan-dev
     libxml2-dev
-    meson
+    
