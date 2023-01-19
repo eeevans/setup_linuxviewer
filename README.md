@@ -2,7 +2,8 @@
 
 This is a set of scripts to setup a dev environment capable of building
 [LinuxViewer](https://github.com/CarloWood/linuxviewer) on Windows WSL2
-Ubuntu 20.04. It has been tested on Windows 10 and 11.
+Ubuntu 20.04. It has been tested on Windows 10 and 11.  It is possbible
+that additional or fewer may be needed for a bare-metal or VM install.
 
 It is being developed on Arch linux and has some steps to install prereqs
 and build on Debian/Ubuntu and also Arch. Following the instructions for
