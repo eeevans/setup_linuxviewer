@@ -39,3 +39,32 @@ The `build_linuxviewer.sh` is very opinionated and should be edited to fit your
 your needs. It assumes the code will live in `~/source/linuxviewer` and that
 you will use ninja to build the source. If not using ninja, simply remove the
 `-GNinja` argument from the `cmake` command, the ninja and ninja install commands and replace with commands needed using your 'make' system of choice.
+
+
+### Packages Required
+Here are the list of packages if you want to install them manually
+
+    build-essential
+    git
+    wget
+    cmake 
+    autoconf 
+    ninja-build 
+    gfortran 
+    pkg-config  
+    libtool 
+    libblas-dev 
+    liblapack-dev 
+    libsystemd-dev
+    gawk 
+    doxygen 
+    graphviz
+    libboost-all-dev 
+    libsparsehash-dev
+    libxkbcommon-x11-dev 
+    libglibmm-2.4-dev 
+    xsltproc 
+    libeigen3-dev 
+    libvulkan-dev
+    libxml2-dev 
+    meson
